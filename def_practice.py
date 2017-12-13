@@ -37,9 +37,9 @@ import math
 ##print("The volume of the sphere is", v_sphere)
 
 def hamburger(wish):
-    if wish.lower() == "no":
+    if wish.lower() in ["no","nope","they are the worst"]:
         reply = "WHY DO YOU NOT LIKE HAMBURGERS"
-    elif wish.lower() == "yes":
+    elif wish.lower() in ["yes","yup","yip"]:
         reply = "Yay! Hamburgers are the best"
     else:
         reply = "What?"
@@ -47,3 +47,4 @@ def hamburger(wish):
         
 wish = input("Do you like hamburgers: ")
 print(hamburger(wish))
+
