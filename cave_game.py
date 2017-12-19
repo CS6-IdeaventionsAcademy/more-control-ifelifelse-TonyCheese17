@@ -57,7 +57,10 @@ if tunnel_choice == "L":
         print("You realize you never learned how to swim...")
         time.sleep(1.2)
         print("But you start doggy paddling and realize you can swim this way")
-        # Remember to add winning text
+        time.sleep(1)
+        print("You reach the end of the lake and see a huge chest of treasure!")
+        time.sleep(1)
+        print("You take it and swim back, walk out of the cave and sell it all for 2 billion dollars! WIN WIN WIN WIN")
     elif lake_choice == "B" or lake_choice == "BOAT":
         print("You climb into the boat and realize you have no paddle")
         print("The boat starts drifting away from the edge...")
